@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GGMainViewController" customModule="GridGame_Challenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o6X-R2-49I">
+                                <rect key="frame" x="18.5" y="164.5" width="337.5" height="337.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="X9Y-MG-9v8">
+                                        <rect key="frame" x="0.0" y="0.0" width="337.5" height="337.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="WOd-ku-h3d">
+                                                <rect key="frame" x="0.0" y="0.0" width="64.5" height="337.5"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CdL-uA-ddO" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zjw-zY-AVJ" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="68.5" width="64.5" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kb9-YL-DPU" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="136.5" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MrJ-oy-HzJ" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="205" width="64.5" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWZ-X4-6Jo" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="273" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="0RP-zB-cpt">
+                                                <rect key="frame" x="68.5" y="0.0" width="64" height="337.5"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tMb-xH-JPg" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pzN-Lx-ry3" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="68.5" width="64" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cn4-aI-BEL" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="136.5" width="64" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZT-8n-rme" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="205" width="64" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ezL-9o-9ky" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="273" width="64" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="aH7-BJ-YVh">
+                                                <rect key="frame" x="136.5" y="0.0" width="64.5" height="337.5"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KD1-Wl-QQo" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eB3-Hc-yGh" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="68.5" width="64.5" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZH-Mp-8jo" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="136.5" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMK-d3-29m" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="205" width="64.5" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WcQ-ki-i9I" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="273" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="P0u-8Z-bdv">
+                                                <rect key="frame" x="205" y="0.0" width="64" height="337.5"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rw4-3x-b3p" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="um4-XB-lRm" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="68.5" width="64" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oM8-PZ-MAF" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="136.5" width="64" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sre-Xc-rBs" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="205" width="64" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HYB-UE-fKY" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="273" width="64" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.82375248670000001" green="0.82375248670000001" blue="0.82375248670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yii-1h-fmD">
+                                                <rect key="frame" x="273" y="0.0" width="64.5" height="337.5"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASI-Vv-7QE" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6jA-0O-C13" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="68.5" width="64.5" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iii-tQ-PeT" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="136.5" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4B-t1-jCS" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="205" width="64.5" height="64"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r4z-Wi-LyA" customClass="GGGridDot" customModule="GridGame_Challenge" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="273" width="64.5" height="64.5"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="X9Y-MG-9v8" firstAttribute="leading" secondItem="o6X-R2-49I" secondAttribute="leading" id="IGx-GS-PCm"/>
+                                    <constraint firstAttribute="trailing" secondItem="X9Y-MG-9v8" secondAttribute="trailing" id="QcJ-2x-p39"/>
+                                    <constraint firstItem="X9Y-MG-9v8" firstAttribute="top" secondItem="o6X-R2-49I" secondAttribute="top" id="cce-c7-ri5"/>
+                                    <constraint firstAttribute="bottom" secondItem="X9Y-MG-9v8" secondAttribute="bottom" id="fAz-yT-e9r"/>
+                                    <constraint firstAttribute="width" secondItem="o6X-R2-49I" secondAttribute="height" multiplier="1:1" id="g1k-ch-MfQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zV-28-FjS">
+                                <rect key="frame" x="18.5" y="124.5" width="30" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.029831843470000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iPV-q1-Cey"/>
+                                    <constraint firstAttribute="width" constant="30" id="jgR-aT-Vo9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mhN-8Y-dGS">
+                                <rect key="frame" x="308.5" y="124" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.1241904618" green="0.35361127510000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="BFZ-d9-AiZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="q8T-wZ-qir"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqX-MS-5Ce">
+                                <rect key="frame" x="346.5" y="129.5" width="9.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q01-gD-UmE">
+                                <rect key="frame" x="56" y="129.5" width="9.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GridGame" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyB-vO-FOx">
+                                <rect key="frame" x="107" y="50" width="162" height="38"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kyB-vO-FOx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0tp-zP-XeY"/>
+                            <constraint firstItem="o6X-R2-49I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4UP-5w-Wwt"/>
+                            <constraint firstItem="q01-gD-UmE" firstAttribute="centerY" secondItem="9zV-28-FjS" secondAttribute="centerY" id="58Y-xT-aLD"/>
+                            <constraint firstItem="kyB-vO-FOx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="B1u-1z-HLj"/>
+                            <constraint firstItem="9zV-28-FjS" firstAttribute="leading" secondItem="o6X-R2-49I" secondAttribute="leading" id="Dpi-3l-dTX"/>
+                            <constraint firstItem="oqX-MS-5Ce" firstAttribute="centerY" secondItem="mhN-8Y-dGS" secondAttribute="centerY" id="IKh-RL-sPn"/>
+                            <constraint firstItem="oqX-MS-5Ce" firstAttribute="leading" secondItem="mhN-8Y-dGS" secondAttribute="trailing" constant="8" id="NtI-rS-0ei"/>
+                            <constraint firstItem="q01-gD-UmE" firstAttribute="leading" secondItem="9zV-28-FjS" secondAttribute="trailing" constant="8" id="P6b-wJ-6qD"/>
+                            <constraint firstItem="o6X-R2-49I" firstAttribute="top" secondItem="mhN-8Y-dGS" secondAttribute="bottom" constant="10" id="UAW-pW-b5z"/>
+                            <constraint firstItem="o6X-R2-49I" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="doy-UE-9TH"/>
+                            <constraint firstItem="oqX-MS-5Ce" firstAttribute="trailing" secondItem="o6X-R2-49I" secondAttribute="trailing" id="mRN-4l-9lb"/>
+                            <constraint firstItem="o6X-R2-49I" firstAttribute="top" secondItem="9zV-28-FjS" secondAttribute="bottom" constant="10" id="rJb-rc-3EY"/>
+                            <constraint firstItem="o6X-R2-49I" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="uhd-JX-o9N"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueScoreLabel" destination="oqX-MS-5Ce" id="bZv-JQ-9y9"/>
+                        <outlet property="blueScoreMarkerView" destination="mhN-8Y-dGS" id="EqD-UN-1QB"/>
+                        <outlet property="dotContainerView" destination="o6X-R2-49I" id="JCW-v3-S8p"/>
+                        <outlet property="gridDot00" destination="CdL-uA-ddO" id="BpJ-Qw-B5D"/>
+                        <outlet property="gridDot01" destination="zjw-zY-AVJ" id="luI-wh-czg"/>
+                        <outlet property="gridDot02" destination="kb9-YL-DPU" id="NcQ-UR-5fJ"/>
+                        <outlet property="gridDot03" destination="MrJ-oy-HzJ" id="qqx-gG-vL9"/>
+                        <outlet property="gridDot04" destination="PWZ-X4-6Jo" id="0qN-tI-iMc"/>
+                        <outlet property="gridDot10" destination="tMb-xH-JPg" id="3r4-uZ-hCc"/>
+                        <outlet property="gridDot11" destination="pzN-Lx-ry3" id="0Ed-k8-k1j"/>
+                        <outlet property="gridDot12" destination="Cn4-aI-BEL" id="DT3-ax-nXR"/>
+                        <outlet property="gridDot13" destination="wZT-8n-rme" id="bcU-9w-PyC"/>
+                        <outlet property="gridDot14" destination="ezL-9o-9ky" id="8iS-rV-cDg"/>
+                        <outlet property="gridDot20" destination="KD1-Wl-QQo" id="xue-f4-3j8"/>
+                        <outlet property="gridDot21" destination="eB3-Hc-yGh" id="eCm-dl-gC2"/>
+                        <outlet property="gridDot22" destination="KZH-Mp-8jo" id="ugQ-WY-MCI"/>
+                        <outlet property="gridDot23" destination="UMK-d3-29m" id="cJt-3J-s0d"/>
+                        <outlet property="gridDot24" destination="WcQ-ki-i9I" id="180-Ci-ugw"/>
+                        <outlet property="gridDot30" destination="rw4-3x-b3p" id="Ufr-T2-oyx"/>
+                        <outlet property="gridDot31" destination="um4-XB-lRm" id="gTx-PS-6VH"/>
+                        <outlet property="gridDot32" destination="oM8-PZ-MAF" id="yFP-vr-9I6"/>
+                        <outlet property="gridDot33" destination="Sre-Xc-rBs" id="QBi-O7-1Bz"/>
+                        <outlet property="gridDot34" destination="HYB-UE-fKY" id="ypC-XV-F3g"/>
+                        <outlet property="gridDot40" destination="ASI-Vv-7QE" id="aFh-qe-fzf"/>
+                        <outlet property="gridDot41" destination="6jA-0O-C13" id="gk4-mZ-JnZ"/>
+                        <outlet property="gridDot42" destination="iii-tQ-PeT" id="ttA-aY-agb"/>
+                        <outlet property="gridDot43" destination="b4B-t1-jCS" id="6IB-fr-OOF"/>
+                        <outlet property="gridDot44" destination="r4z-Wi-LyA" id="q2i-du-4h4"/>
+                        <outlet property="redScoreLabel" destination="q01-gD-UmE" id="daH-b1-2mw"/>
+                        <outlet property="redScoreMarkerView" destination="9zV-28-FjS" id="bl4-Hh-AI3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
